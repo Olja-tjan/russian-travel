@@ -1,5 +1,6 @@
 .preview__title {
   position: absolute;
+  /* функция для автоматическо расчёта позиционирования зоголовка по центру */
   top: calc((100% - 250px)/2);
   left: calc((100% - 560px)/2);
   z-index: 1;

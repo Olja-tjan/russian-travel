@@ -8,6 +8,7 @@
   transition: opacity 0.5s ease-out;
 }
 
+/* анимация при наведении курсора */
 .header__language:hover {
   opacity: 0.8;
 }

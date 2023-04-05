@@ -1,10 +1,13 @@
 .preview__background {
+  /* ширина фона теперь зависит от размера блока и соответственно от ширины экрана */
   max-width: 100%;
   z-index: 0;
   opacity: 0.7;
+  /* параметры анимации */
   transition: opacity 0.5s ease-out;
 }
 
+/* анимация затемнения фона при наведении курсора на весь блок */
 .preview__link:hover > .preview__background {
   opacity: 0.5;
 }
