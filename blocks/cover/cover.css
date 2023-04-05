@@ -1,0 +1,28 @@
+.cover {
+  max-width: 984px;
+  padding: 56px 0 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    padding: 48px 48px 92px;
+  }
+}
+
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    padding: 48px 0 88px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .cover {
+    padding: 48px 0 64px;
+  }
+}

@@ -1,0 +1,24 @@
+.preview__subtitle {
+  position: absolute;
+  bottom: calc((100% - 250px)/2);
+  left: calc((100% - 360px)/2);
+  z-index: 1;
+  margin: 0;
+  max-width: 360px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 767px) {
+  .preview__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+    bottom: calc((100% - 134px)/2);
+    left: calc((100% - 288px)/2);
+  }
+}

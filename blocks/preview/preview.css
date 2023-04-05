@@ -1,0 +1,20 @@
+.preview {
+  max-width: 1184px;
+  position: relative;
+  margin: 0;
+  margin-bottom: 92px;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .preview {
+    margin-bottom: 88px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .preview {
+    margin-bottom: 64px;
+  }
+}

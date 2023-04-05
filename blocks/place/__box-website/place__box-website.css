@@ -1,0 +1,10 @@
+.place__box-website {
+  align-self: end;
+}
+
+
+@media screen and (max-width: 767px) {
+  .place__box-website {
+    padding: 0 16px;
+  }
+}

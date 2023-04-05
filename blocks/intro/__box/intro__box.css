@@ -1,0 +1,30 @@
+.intro__box {
+  max-width: 690px;
+  align-self: start;
+  padding: 0 0 92px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+
+@media screen and (max-width: 1279px) {
+  .intro__box {
+    padding: 0 0 92px 48px;
+  }
+}
+
+
+@media screen and (max-width: 1023px) {
+  .intro__box {
+    max-width: 100%;
+    padding: 0 24px 88px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .intro__box {
+    padding: 0 16px 64px;
+  }
+}

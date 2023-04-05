@@ -1,0 +1,35 @@
+.page {
+  /* ограничени ширины контента страницы при резрешении: от 1280px и более */
+  max-width: 1184px;
+  /* центрирование страницы */
+  margin: 0 auto;
+  background-color: #2A2C2F;
+  color: #fff;
+  font-family: 'Inter', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+@media screen and (max-width: 1279px) {
+  .page {
+    /* ограничени ширины контента страницы при резрешении: от 1024px */
+    max-width: 1024px;
+  }
+}
+
+
+@media screen and (max-width: 1023px) {
+  .page {
+    /* ограничени ширины контента страницы при резрешении: от 768px */
+    max-width: 768px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .page {
+    /* ограничени ширины контента страницы при резрешении: от 320px */
+    max-width: 320px;
+  }
+}

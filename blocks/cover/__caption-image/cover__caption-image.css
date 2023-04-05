@@ -1,0 +1,24 @@
+.cover__caption-image {
+  margin: 0;
+  padding-top: 8px;
+  align-self: start;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .cover__caption-image {
+    padding-left: 24px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .cover__caption-image {
+    padding-left: 16px;
+  }
+}

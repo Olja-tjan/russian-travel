@@ -1,0 +1,12 @@
+.place__box-text {
+  display: grid;
+  row-gap: 25px;
+  grid-template-rows: min-content;
+}
+
+
+@media screen and (max-width: 767px) {
+  .place__box-text {
+    padding: 0 16px;
+  }
+}

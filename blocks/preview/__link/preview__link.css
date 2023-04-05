@@ -1,0 +1,4 @@
+.preview__link {
+  z-index: 1;
+  display: grid;
+}

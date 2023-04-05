@@ -1,0 +1,26 @@
+.preview__title {
+  position: absolute;
+  top: calc((100% - 250px)/2);
+  left: calc((100% - 560px)/2);
+  z-index: 1;
+  margin: 0;
+  padding-bottom: 32px;
+  max-width: 560px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 767px) {
+  .preview__title {
+    max-width: 250px;
+    font-size: 32px;
+    line-height: 35px;
+    padding-bottom: 16px;
+    top: calc((100% - 134px)/2);
+    left: calc((100% - 250px)/2);
+  }
+}
