@@ -14,10 +14,10 @@
     <img class="header__logo" src="./images/header-logo.svg" alt="Логотип: Россия">
     <ul class="header__languages">
       <li>
-        <a class="header__language header__language_ru" href="#">Ru</a>
+        <a class="header__language header__language_active" href="#">Ru</a>
       </li>
       <li>
-        <a class="header__language header__language_en" href="#">En</a>
+        <a class="header__language" href="#">En</a>
       </li>
     </ul>
   </header>
@@ -26,81 +26,72 @@
 
     <section class="cover">
       <h1 class="cover__title">Путешествия по России</h1>
-      <h3 class="cover__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h3>
-      <img class="cover__main-image" src="./images/polka.jpg" alt="Полка поезда и маршрут">
-      <p class="cover__caption-image">ваша полка — верхняя</p>
+      <p class="cover__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+      <figure class="cover__box-image">
+        <img class="cover__main-image" src="./images/polka.jpg" alt="Полка поезда и маршрут">
+        <figcaption class="cover__caption-image">ваша полка — верхняя</figcaption>
+      </figure>
     </section>
 
     <section class="intro">
-      <div class="intro__box">
-        <h2 class="intro__title">Чего мы там не видели?</h2>
-        <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
-          провести
-          отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с
-          ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно
-          без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая
-          молодая
-          мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной
-          стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-        <ul class="intro__list">
-          <li>
-            <p class="intro__item">Часовых поясов <span class="intro__number">11</span></p>
-          </li>
-          <li>
-            <p class="intro__item">Объектов природного наследия ЮНЕСКО <span class="intro__number">12</span></p>
-          </li>
-          <li>
-            <p class="intro__item">Объектов культурного наследия ЮНЕСКО <span class="intro__number">16</span></p>
-          </li>
-          <li>
-            <p class="intro__item">Природных заповедников <span class="intro__number">105</span></p>
-          </li>
-          <li>
-            <p class="intro__item">Аэропортов <span class="intro__number">241</span></p>
-          </li>
-        </ul>
-      </div>
-      <div class="photos">
-        <ul class="photos__list">
-          <li class="photos__item">
-            <img class="photos__image" src="./images/photo__train.jpg" alt="Вид из окна поезда">
-          </li>
-          <li class="photos__item">
-            <img class="photos__image" src="./images/photo__mountains.jpg" alt="Снежные горы в облаках вид сверху">
-          </li>
-          <li class="photos__item">
-            <img class="photos__image" src="./images/photo__fog.jpg" alt="Утренний туман в поле с кипами сена">
-          </li>
-          <li class="photos__item">
-            <img class="photos__image" src="./images/photo__forest.jpg" alt="Ергаки - лес в облаках">
-          </li>
-          <li class="photos__item">
-            <img class="photos__image" src="./images/photo__ice.jpg" alt="Кадр колеса машины на льду">
-          </li>
-          <li class="photos__item">
-            <img class="photos__image" src="./images/photo__baikal-1.jpg" alt="Песчаный берег Байкала">
-          </li>
-          <li class="photos__item">
-            <img class="photos__image" src="./images/photo__elbrus.jpg" alt="Эльбрус">
-          </li>
-          <li class="photos__item">
-            <img class="photos__image" src="./images/photo__road-sign.jpg"
-              alt="Знак пешеходного перехода на фоне противотанковых ежей">
-          </li>
-          <li class="photos__item">
-            <img class="photos__image" src="./images/photo__kamchatka-1.jpg" alt="Камчатка вид сверху">
-          </li>
-          <li class="photos__item">
-            <img class="photos__image" src="./images/photo__kamchatka-2.jpg" alt="Камчатка">
-          </li>
-          <li class="photos__item">
-            <img class="photos__image" src="./images/photo__baikal-2.jpg" alt="Прибрежная зона Байкала">
-          </li>
-          <li class="photos__item">
-            <img class="photos__image" src="./images/photo__ergaki.jpg" alt="Ергаки -горы в облаках">
-          </li>
-        </ul>
-      </div>
+      <h2 class="intro__title">Чего мы там не видели?</h2>
+      <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
+        провести
+        отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с
+        ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно
+        без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая
+        молодая
+        мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной
+        стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
+      <ul class="intro__list">
+        <li class="intro__item">Часовых поясов <span class="intro__number">11</span></li>
+        <li class="intro__item">Объектов природного наследия ЮНЕСКО <span class="intro__number">12</span></li>
+        <li class="intro__item">Объектов культурного наследия ЮНЕСКО <span class="intro__number">16</span></li>
+        <li class="intro__item">Природных заповедников <span class="intro__number">105</span></li>
+        <li class="intro__item">Аэропортов <span class="intro__number">241</span></li>
+      </ul>
+    </section>
+
+    <section class="photos" aria-label="фотогалерея">
+      <ul class="photos__list">
+        <li class="photos__item">
+          <img class="photos__image" src="./images/photo__train.jpg" alt="Вид из окна поезда">
+        </li>
+        <li class="photos__item">
+          <img class="photos__image" src="./images/photo__mountains.jpg" alt="Снежные горы в облаках вид сверху">
+        </li>
+        <li class="photos__item">
+          <img class="photos__image" src="./images/photo__fog.jpg" alt="Утренний туман в поле с кипами сена">
+        </li>
+        <li class="photos__item">
+          <img class="photos__image" src="./images/photo__forest.jpg" alt="Ергаки - лес в облаках">
+        </li>
+        <li class="photos__item">
+          <img class="photos__image" src="./images/photo__ice.jpg" alt="Кадр колеса машины на льду">
+        </li>
+        <li class="photos__item">
+          <img class="photos__image" src="./images/photo__baikal-1.jpg" alt="Песчаный берег Байкала">
+        </li>
+        <li class="photos__item">
+          <img class="photos__image" src="./images/photo__elbrus.jpg" alt="Эльбрус">
+        </li>
+        <li class="photos__item">
+          <img class="photos__image" src="./images/photo__road-sign.jpg"
+            alt="Знак пешеходного перехода на фоне противотанковых ежей">
+        </li>
+        <li class="photos__item">
+          <img class="photos__image" src="./images/photo__kamchatka-1.jpg" alt="Камчатка вид сверху">
+        </li>
+        <li class="photos__item">
+          <img class="photos__image" src="./images/photo__kamchatka-2.jpg" alt="Камчатка">
+        </li>
+        <li class="photos__item">
+          <img class="photos__image" src="./images/photo__baikal-2.jpg" alt="Прибрежная зона Байкала">
+        </li>
+        <li class="photos__item">
+          <img class="photos__image" src="./images/photo__ergaki.jpg" alt="Ергаки -горы в облаках">
+        </li>
+      </ul>
     </section>
 
     <section class="places">
@@ -108,7 +99,7 @@
         <li class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__box-website">
-            <p class="place__caption-website">URL</p>
+            <p class="place__caption-website">url</p>
             <a class="place__website" target="_blank" href="http://park-kosa.ru">park-kosa.ru</a>
           </div>
           <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса - мелководье с корягами">
@@ -125,7 +116,7 @@
         <li class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__box-website">
-            <p class="place__caption-website">URL</p>
+            <p class="place__caption-website">url</p>
             <a class="place__website" target="_blank"
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
           </div>
@@ -143,7 +134,7 @@
         <li class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__box-website">
-            <p class="place__caption-website">URL</p>
+            <p class="place__caption-website">url</p>
             <a class="place__website" target="_blank" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">YouTube</a>
           </div>
           <img class="place__image" src="./images/place-altai.jpg" alt="Алтай - ноутбук на фоне леса">
@@ -159,7 +150,7 @@
         <li class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__box-website">
-            <p class="place__caption-website">URL</p>
+            <p class="place__caption-website">url</p>
             <a class="place__website" target="_blank" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
           </div>
           <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Зимний Байкал - узор из трещин на льду">
@@ -175,7 +166,7 @@
         <li class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__box-website">
-            <p class="place__caption-website">URL</p>
+            <p class="place__caption-website">url</p>
             <a class="place__website" target="_blank" href="http://vodlozero.ru">http://vodlozero.ru/</a>
           </div>
           <img class="place__image" src="./images/place-karelia.jpg" alt="Карелия - река в лесу">
@@ -192,34 +183,34 @@
     </section>
 
     <section class="preview">
-      <a class="preview__link" target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-        <h2 class="preview__title">До Байкала «на собаках»</h2>
-        <h3 class="preview__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-          электричках.</h3>
-        <img class="preview__background" src="./images/trains.jpg" alt="Железнодорожные пути">
-      </a>
+      <a class="preview__link" target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala"></a>
+      <h2 class="preview__title">До Байкала «на собаках»</h2>
+      <p class="preview__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+        электричках.</p>
     </section>
 
   </main>
 
   <footer class="footer">
-    <ul class="footer__list">
-      <li>
-        <a class="footer__link" target="_blank" href="https://yandex.ru/maps">Карты</a>
-      </li>
-      <li>
-        <a class="footer__link" target="_blank" href="https://yandex.ru/pogoda">Погода</a>
-      </li>
-      <li>
-        <a class="footer__link" target="_blank" href="https://rasp.yandex.ru">Расписание</a>
-      </li>
-      <li>
-        <a class="footer__link" target="_blank" href="https://calendar.yandex.ru">Календарь</a>
-      </li>
-      <li>
-        <a class="footer__link" target="_blank" href="https://travel.yandex.ru">Путешествия</a>
-      </li>
-    </ul>
+    <nav>
+      <ul class="footer__list">
+        <li>
+          <a class="footer__link" target="_blank" href="https://yandex.ru/maps">Карты</a>
+        </li>
+        <li>
+          <a class="footer__link" target="_blank" href="https://yandex.ru/pogoda">Погода</a>
+        </li>
+        <li>
+          <a class="footer__link" target="_blank" href="https://rasp.yandex.ru">Расписание</a>
+        </li>
+        <li>
+          <a class="footer__link" target="_blank" href="https://calendar.yandex.ru">Календарь</a>
+        </li>
+        <li>
+          <a class="footer__link" target="_blank" href="https://travel.yandex.ru">Путешествия</a>
+        </li>
+      </ul>
+    </nav>
     <p class="footer__copyright">&copy; 2023. Булгакова Ольга</p>
   </footer>
 
