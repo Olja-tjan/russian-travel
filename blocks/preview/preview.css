@@ -1,6 +1,7 @@
 .preview {
   width: 100%;
   min-height: 720px;
+  position: relative;
   margin: 0;
   margin-bottom: 92px;
   background-image: url(../../images/trains.jpg);
@@ -12,7 +13,7 @@
 .preview::before {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 1184px;
   height: 100%;
   background-color: #2A2C2F;
   opacity: 0.3;
